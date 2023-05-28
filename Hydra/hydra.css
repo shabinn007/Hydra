@@ -1,0 +1,385 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(237, 237, 237);
+  color: rgb(11, 11, 11);
+}
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/pic1.png);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  padding: 10px 5%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0);
+}
+.contactNumber {
+  display: flex;
+}
+.phoneNum {
+  color: white;
+}
+.callLogo {
+  height: 50px;
+  width: 60px;
+}
+.logo {
+  width: 140px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #f9f9f9;
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+}
+.line {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(117, 116, 116);
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.header-text {
+  margin-top: 15%;
+  font-size: 30px;
+}
+.header-text h1 {
+  font-size: 64px;
+  margin-top: -60px;
+
+  color: rgb(255, 255, 255);
+}
+
+.header-text p {
+  width: 658px;
+  height: 60px;
+  font-size: 14px;
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+
+  margin-top: 20px;
+  /* font-family: "Rock Salt", cursive; */
+  color: rgb(217, 224, 225);
+}
+.cards {
+  display: flex;
+}
+.card {
+  width: 263px;
+  height: 94px;
+  margin-right: 24px;
+  margin-top: 50px;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.card-content1 {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.card-content2 {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+.icon1 {
+  height: 82px;
+  width: 100px;
+}
+.icon2 {
+  height: 58px;
+  width: 65px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.dwnld-btn {
+  height: 87px;
+  width: 360px;
+  background-color: #65b530;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+.fnlctnd {
+  display: flex;
+  margin-top: 52px;
+  justify-content: end;
+}
+.secnd {
+  margin-top: 100px;
+  color: rgba(46, 49, 146, 1);
+}
+.verLine {
+  height: 124px;
+  width: 2px;
+  background-color: rgba(211, 211, 211, 1);
+}
+.secntnd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.usls {
+  font-size: 15px;
+  height: 120px;
+  width: 819px;
+}
+.third {
+  background-image: url(assets/pic2.png);
+  height: 921px;
+  margin-top: 50px;
+  margin-left: 29px;
+  width: 95%;
+}
+.thirdh1 {
+  color: white;
+  margin-top: 74px;
+  margin-bottom: 10px;
+  margin-left: 27px;
+}
+.seccard1 {
+  background-image: url(assets/pic3.png);
+  height: 457px;
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 27px;
+  margin-top: 200px;
+}
+.seccard2 {
+  background-image: url(assets/pic4.png);
+  height: 457px;
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 27px;
+  margin-top: 200px;
+}
+.seccard3 {
+  background-image: url(assets/pic5.png);
+  height: 457px;
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 27px;
+  margin-top: 200px;
+}
+.seccard4 {
+  background-image: url(assets/pic6.png);
+  height: 457px;
+  width: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 27px;
+  margin-top: 200px;
+  margin-right: 27px;
+}
+.seccards {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+.containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secndmenu {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0);
+}
+.secndmenu ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  margin-left: 30px;
+}
+.secndmenu ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+.secndmenu ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: rgba(14, 99, 255, 1);
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+}
+
+.cardds {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardd {
+  width: 321px;
+  height: 377px;
+  background-color: rgba(244, 244, 244, 0.74);
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.cardd img {
+  width: 100%;
+  height: 377px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.cardd-content {
+  padding: 16px;
+}
+
+.quote-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.badge {
+  width: 1439px;
+  height: 102px;
+  background-color: rgba(14, 99, 255, 1);
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allproducts {
+  width: 300px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+}
+.footer {
+  margin-top: 170px;
+  display: flex;
+}
+.right {
+  background-image: url(assets/image\ 2.png);
+  height: 630px;
+  width: 3086px;
+}
+.ftr-head {
+  font-size: 100px;
+  color: rgba(62, 65, 181, 1);
+  margin-left: 270px;
+}
+.smline {
+  width: 250px;
+  height: 3px;
+  background-color: #65b530;
+  margin-left: 270px;
+}
+.ftr-p {
+  font-size: 22px;
+  margin-left: 270px;
+
+  color: rgba(74, 74, 74, 1);
+}
+
+@media only screen and (max-width: 700px) {
+  #header {
+    background-image: url(assets/pic6.png);
+  }
+  .header-text p {
+    color: black;
+  }
+  nav .fas {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #200566;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .about-col1,
+  .about-col2 {
+    flex-basis: 100%;
+  }
+  .about-col1 {
+    margin-bottom: 30px;
+  }
+}
